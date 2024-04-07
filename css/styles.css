@@ -514,4 +514,7 @@ body {
   .cloud-padding {
     padding: 72px 50px 336px;
   }
+  .footer-table {
+    border-spacing: 20px 16px;
+  }
 }

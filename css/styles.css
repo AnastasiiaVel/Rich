@@ -1,0 +1,517 @@
+body {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.025em;
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  background-color: #312c8b;
+}
+
+.star {
+  background: url("../img/des/Image - star.png") no-repeat;
+  background-position: left top;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 45.83px;
+  color: white;
+  letter-spacing: 0.05em;
+  line-height: 50px;
+  margin: 0 20px;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: white;
+  margin: 0 20px;
+}
+
+.feature {
+  font-size: 20.83px;
+  color: white;
+  letter-spacing: 0.025em;
+  margin: 8px 0;
+}
+
+.description-container {
+  display: flex;
+  justify-content: center;
+  padding: 72px 0 24px;
+}
+.description-container-item {
+  position: relative;
+}
+.description {
+  font-size: 18.75px;
+  color: black;
+  margin: 0;
+}
+
+#description-top,
+#description-bottom {
+  position: absolute;
+  text-align: left;
+}
+
+#description-top {
+  top: -22%;
+  left: 50%;
+}
+#description-bottom {
+  top: 82%;
+  left: 50%;
+}
+
+#logo-mob {
+  margin: 32px 20px;
+}
+
+#logo-mob,
+#logo-tab,
+#logo-des {
+  max-width: 100%;
+}
+
+#logo-tab,
+#logo-des {
+  display: none;
+}
+
+#blanket-mob {
+  padding: 32px 0 0;
+}
+
+#blanket-mob,
+#blanket-tab,
+#blanket-des {
+  max-width: 100%;
+}
+
+#blanket-tab,
+#blanket-des {
+  display: none;
+}
+
+.parameters {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  gap: 32px;
+}
+
+.parameters-item-subtitle {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: white;
+  margin: 0 auto;
+}
+
+.badges {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0 20px 0;
+  gap: 32px;
+}
+
+.badges-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#description-tab,
+#description-des {
+  display: none;
+}
+
+.orange {
+  text-transform: none;
+  color: #ff7700;
+  margin: 0;
+}
+
+.content-item {
+  font-size: 18.75px;
+  color: black;
+  margin: 8px auto;
+  letter-spacing: 0.025em;
+}
+
+.block-contents {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 20px;
+  gap: 16px;
+}
+
+.contents-left,
+.contents-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  padding: 8px;
+}
+
+#contents-tab,
+#contents-des {
+  display: none;
+}
+
+#icon-des {
+  display: none;
+}
+.cloud {
+  display: flex;
+  flex-direction: column;
+  background: url("../img/des/image - starF.png") no-repeat;
+  background-size: 100% auto;
+  background-position: left center;
+  background-size: cover;
+  background-color: #312c8b;
+}
+
+.footer-subtitle-item {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: white;
+  margin: 0;
+}
+
+.footer-title-item {
+  font-size: 37.5px;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 20px 80px;
+  gap: 8px;
+}
+
+.tab-and-des {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .title {
+    margin: 0;
+  }
+  .title-item {
+    gap: 16px;
+  }
+  .header .subtitle {
+    font-size: 41.79px;
+    letter-spacing: 0.1em;
+  }
+  .header .title {
+    font-size: 56.25px;
+    letter-spacing: 0em;
+  }
+  .header {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 66px 50px 0;
+  }
+  #logo-mob {
+    display: none;
+  }
+  #logo-tab {
+    display: inline-block;
+  }
+  #blanket-mob {
+    display: none;
+  }
+  #blanket-tab {
+    display: inline-block;
+  }
+  #description-mob {
+    display: none;
+  }
+  #description-tab {
+    display: inline-block;
+  }
+  .description {
+    font-size: 35.42px;
+  }
+  .description-container {
+    padding: 96px 0 56px;
+  }
+  #description-top {
+    top: -8%;
+    left: 45%;
+  }
+  #description-bottom {
+    top: 89%;
+    left: 75%;
+  }
+  #contents-mob {
+    display: none;
+  }
+  #contents-tab {
+    display: inline-block;
+  }
+  .parameters,
+  .badges {
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+  }
+  .parameters {
+    gap: 190px;
+    padding: 32px 50px 0;
+  }
+  .badges {
+    gap: 220px;
+    padding: 24px 50px 32px;
+  }
+  .badges-item {
+    flex-direction: row;
+    gap: 16px;
+  }
+  .parameters-item-subtitle {
+    text-transform: none;
+    font-size: 37.5px;
+  }
+  .feature {
+    font-size: 29.17px;
+  }
+  .block-contents {
+    justify-content: space-around;
+    padding: 60px 50px 56px;
+    margin: 0;
+  }
+  .contents-left {
+    flex-direction: row;
+  }
+  .contents-right {
+    flex-direction: row-reverse;
+  }
+  .contents-left,
+  .contents-right {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+  }
+  .orange {
+    font-size: 35.42px;
+  }
+  .content-item {
+    font-size: 29.17px;
+  }
+  .cloud {
+    background-position: center bottom;
+    background-size: 100% auto;
+  }
+  .footer-item {
+    padding: 56px 0 0;
+    gap: 8px;
+  }
+  .tab-and-des {
+    display: inline-block;
+  }
+  #footer-blanket-tab {
+    display: inline-block;
+  }
+  #footer-blanket-des {
+    display: none;
+  }
+  .footer-title {
+    font-size: 53.65px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+  }
+  .footer-subtitle-item {
+    font-size: 36.25px;
+  }
+  .footer-title-item {
+    font-size: 50.75px;
+  }
+  .cloud .subtitle {
+    font-size: 35.42px;
+    text-transform: none;
+  }
+  .tab-and-des {
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 0.025em;
+  }
+  .cloud-padding {
+    padding: 56px 50px 200px;
+  }
+
+  th,
+  td {
+    font-weight: 400;
+  }
+
+  .table-data-param {
+    font-size: 29.17px;
+    color: #ff7700;
+    text-align: left;
+  }
+  .table-data {
+    font-size: 29.17px;
+    text-align: center;
+    padding: 16px 48px;
+    color: white;
+    background-color: #ff7700;
+    border-radius: 5px;
+  }
+  .footer-table {
+    border-spacing: 16px 12px;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .title-item {
+    gap: 32px;
+  }
+  .header .subtitle {
+    font-size: 62.5px;
+    letter-spacing: 0.1em;
+  }
+  .header .title {
+    font-size: 83.33px;
+    letter-spacing: 0.025em;
+  }
+  .parameters {
+    padding: 0 50px;
+  }
+  .badges {
+    padding: 0 50px 78px;
+  }
+  .header {
+    gap: 72px;
+    padding: 98px 52px 0;
+  }
+  .parameters-item-subtitle {
+    font-size: 52.08px;
+  }
+  .feature {
+    font-size: 37.5px;
+  }
+  #logo-tab {
+    display: none;
+  }
+  #logo-des {
+    display: inline-block;
+  }
+  #blanket-tab {
+    display: none;
+  }
+  #blanket-des {
+    display: inline-block;
+  }
+
+  #description-tab {
+    display: none;
+  }
+  #description-des {
+    display: inline-block;
+  }
+  .description {
+    font-size: 37.5px;
+  }
+  .description-container {
+    padding: 88px 0;
+  }
+  #description-top {
+    top: 30%;
+    left: 77%;
+  }
+  #description-bottom {
+    top: 80%;
+    left: 77%;
+  }
+  #contents-tab {
+    display: none;
+  }
+  #contents-des {
+    display: inline-block;
+  }
+  .orange {
+    font-size: 62.5px;
+  }
+  .content-item {
+    font-size: 37.5px;
+  }
+  .contents-left,
+  .contents-right {
+    gap: 50px;
+  }
+  .parameters,
+  .badges {
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+  }
+  .parameters {
+    gap: 362px;
+    padding: 88px 50px 0;
+  }
+  .badges {
+    gap: 462px;
+    padding: 24px 50px 80px;
+  }
+  #footer-blanket-tab {
+    display: none;
+  }
+  #footer-blanket-des {
+    display: inline-block;
+  }
+  .footer-subtitle-item {
+    font-size: 52.08px;
+  }
+  .footer-title-item {
+    font-size: 72.92px;
+  }
+  .footer-title {
+    font-size: 77.08px;
+  }
+  .footer-item {
+    padding: 64px 0 0;
+  }
+  .cloud .subtitle {
+    font-size: 52.08px;
+    text-transform: none;
+  }
+  .table-data-param {
+    font-size: 41.67px;
+  }
+  .table-data {
+    font-size: 37.5px;
+    padding: 36px 48px;
+  }
+  .cloud-padding {
+    padding: 72px 50px 336px;
+  }
+}
